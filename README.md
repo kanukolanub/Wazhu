@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a project on how to Deploy Wazhu Server, we will learn about Wazhu Agents, Wazhu Vulnerability Assessment & Security Events, Wazhu Policy Auditing, Monitoring Logons with Wazhu, Collecting Windows Logs with Wazhu, Collecting Linux Logs with Wazhu, Auditing Commands on Linux with Wazhu, Wazhu API, Generating Reports with Wazhu, Loading Sample Data.
+This repository contains a project to learn about Wazhu Agents, Wazhu Vulnerability Assessment & Security Events, Wazhu Policy Auditing, Monitoring Logons with Wazhu, Collecting Windows Logs with Wazhu, Collecting Linux Logs with Wazhu, Auditing Commands on Linux with Wazhu, Wazhu API, Generating Reports with Wazhu, Loading Sample Data.
 
 **Introduction**
 
