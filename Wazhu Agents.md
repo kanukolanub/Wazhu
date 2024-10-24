@@ -9,3 +9,13 @@ In order for Wazuh to be populated, agents need to be installed onto devices to 
 3. What group the agent will be under - you can sort agents into groups within Wazuh if you wish
 
 This wizard can be launched by navigating to the following location on the Wazuh server: Wazuh -> Agents -> Deploy New Agent as illustrated in this screenshot below:
+![image](https://github.com/user-attachments/assets/6d26271a-6ad3-432f-a89c-d3923465bb13)
+
+Once you navigate to this display, the intuitive wizard will be available to you. I have shared screenshots of using the wizard to install Wazhur's agent on both Windows and Debian/Ubuntu. At stage 4, you are given a command to copy and paste to your clipboard which will install & configure the agent on the device that you wish to collect logs from.
+
+**Installing the Wazuh agent on Windows:**
+![image](https://github.com/user-attachments/assets/2348ce9b-cee6-41fe-9faf-31656155f56f)
+
+**Installing the Wazuh agent on Debian/Ubuntu:**
+![image](https://github.com/user-attachments/assets/78a3203a-d553-4e4f-a7f7-5db0a70cc268)
+
