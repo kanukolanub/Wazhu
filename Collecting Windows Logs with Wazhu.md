@@ -24,7 +24,7 @@ Let’s launch a powershell prompt on the Windows Server and return to our Event
 
 Now we will need to configure the Wazuh agent on this Window Server to instruct it to send these events to the Wazuh management server. To do so, we need to open the Wazuh agent file located at: C:\Program Files (x86)\ossec-agent\ossec.conf
 
-![image](https://github.com/user-attachments/assets/870e12e1-f173-4a8f-ae8c-d19a9b5adaa7)
+![image](https://github.com/user-attachments/assets/28bc6109-ee6b-43cb-894e-55b29e3371c5)
 
 To include the following snippet:
 
