@@ -22,3 +22,29 @@ curl -k -X GET "https://MACHINE_IP:55000/manager/status?pretty=true" -H "Authori
 For example, let’s use the Wazuh API to list some statistics and important information about the Wazuh management server, including what services are being monitored and some general settings about the Wazuh management server:
 
 curl -k -X GET "https://MACHINE_IP:55000/manager/configuration?pretty=true§ion=global" -H "Authorization: Bearer $TOKEN"
+
+![image](https://github.com/user-attachments/assets/ed31ad49-554e-4633-9239-a87c0341fcc4)
+
+Or perhaps, we can use the Wazuh management server’s API to interact with an agent:
+curl -k -X GET "https://MACHINE_IP:55000/agents?pretty=true&offset=1&limit=2&select=status%2Cid%2Cmanager%2Cname%2Cnode_name%2Cversion&status=active" -H "Authorization: Bearer $TOKEN"
+
+![image](https://github.com/user-attachments/assets/baf57e04-dfa2-4530-a98b-deae9a2455d0)
+
+Using Wazuh's API Console
+Wazuh has a powerful, integrated API console within the Wazuh website to query management servers and agents. Whilst it is not as extensive as using your own environment (where you can create and run scripts using python, for example), it is convenient.
+
+To find this API console, we need to open the "Tools" category within the Wazuh heading at the top:
+
+![image](https://github.com/user-attachments/assets/a5b7458f-eb3b-47d7-804c-cb9f15b5aa35)
+
+You will be greeted with a few sample queries that you can run. Simply select the line and press the green run arrow to run the query as demonstrated below:
+
+![image](https://github.com/user-attachments/assets/8d71a911-30cd-4f11-ae26-bbad52530012)
+
+Reminder, the syntax for running queries uses the same web methods (i.e. GET/PUT/POST) and endpoints (i.e. /manager/info) as you would use with curl. You can view some more options about API endpoints by following Wazuh's detailed API documentation here
+
+
+
+
+
+
